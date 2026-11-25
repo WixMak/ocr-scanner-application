@@ -1,0 +1,43 @@
+{
+  "page": {
+    "heading": "Extract values",
+    "intro": "Choose the template that matches the form, upload the filled copy, and review the values before using the JSON.",
+    "templateLabel": "Template",
+    "templatePlaceholder": "Choose a template",
+    "noTemplates": "There are no templates yet.",
+    "createTemplate": "Create one from a blank form.",
+    "fileLabel": "Filled form",
+    "extract": "Extract values",
+    "extracting": "Extracting…",
+    "extractingHint": "Reading handwriting… this can take up to a minute for long forms."
+  },
+  "result": {
+    "summary": "Read {{total}} fields: {{confirmed}} confirmed, {{review}} need review, {{empty}} empty.",
+    "notAligned": "The scan couldn't be lined up with the template, so some values may come from the wrong area. Check the preview carefully, or rescan the form flat and well lit.",
+    "notAlignedPages_one": "Page {{pages}} of the scan couldn't be lined up with the template, so some values on it may come from the wrong area. Check that page in the preview, or rescan it flat and well lit.",
+    "notAlignedPages_other": "Pages {{pages}} of the scan couldn't be lined up with the template, so some values on them may come from the wrong area. Check those pages in the preview, or rescan them flat and well lit.",
+    "previewHeading": "Scan preview",
+    "imageAlt": "Filled form lined up with the template, with each extracted value shown on its field",
+    "imageAltPage": "Filled form page {{number}} lined up with the template, with each extracted value shown on its field",
+    "fieldsHeading": "Extracted values",
+    "boxLabel": "{{label}}: {{value}}, {{status}}. Go to this value.",
+    "noValue": "(blank)",
+    "notApplicable": "—",
+    "confidence": "Confidence {{confidence}}",
+    "readingsSummary_one": "{{count}} engine reading",
+    "readingsSummary_other": "{{count}} engine readings",
+    "readingsColumns": {
+      "engine": "Engine",
+      "text": "Text read",
+      "confidence": "Confidence"
+    }
+  },
+  "json": {
+    "heading": "JSON output",
+    "copy": "Copy JSON",
+    "download": "Download JSON",
+    "copied": "JSON copied to the clipboard.",
+    "copyFailed": "Couldn't copy automatically. Select the JSON below and copy it manually.",
+    "codeLabel": "Extracted values as JSON"
+  }
+}

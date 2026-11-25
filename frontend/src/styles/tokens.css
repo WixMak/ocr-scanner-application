@@ -1,0 +1,75 @@
+/*
+ * Design tokens: "Banking / Traditional Finance" palette + Minimalism & Swiss style
+ * (ui-ux-pro-max). Contrast ratios are against --color-card (#FFFFFF).
+ */
+:root {
+  --color-primary: #0f172a;
+  --color-on-primary: #ffffff;
+  --color-secondary: #1e3a8a; /* 10.4:1 */
+  --color-secondary-hover: #1e40af;
+  --color-on-secondary: #ffffff;
+  --color-accent: #a16207; /* 4.9:1 */
+  --color-background: #f8fafc;
+  --color-foreground: #020617;
+  --color-card: #ffffff;
+  --color-muted: #e8ecf1;
+  --color-muted-foreground: #475569; /* 7.6:1 */
+  --color-border: #e2e8f0;
+  --color-border-strong: #64748b; /* 4.8:1, form control boundaries */
+  --color-destructive: #b91c1c; /* 6.5:1 */
+  --color-destructive-hover: #991b1b;
+  --color-on-destructive: #ffffff;
+  --color-ring: #1d4ed8;
+  --color-ring-on-dark: #ffffff;
+
+  --color-success: #15803d; /* 5.0:1 */
+  --color-success-surface: #f0fdf4;
+  --color-warning: #92400e; /* 7.1:1 */
+  --color-warning-surface: #fffbeb;
+  --color-warning-border: #d97706;
+  --color-info: #1e3a8a;
+  --color-info-surface: #eff6ff;
+  --color-error-surface: #fef2f2;
+  --color-neutral-surface: #f1f5f9;
+
+  /* One colour per field type, all unlike the amber selection; white tag text on each passes. */
+  --color-field-text: #1d4ed8; /* 6.7:1 */
+  --color-field-text-fill: rgb(29 78 216 / 0.08);
+  --color-field-number: #0f766e; /* 5.5:1 */
+  --color-field-number-fill: rgb(15 118 110 / 0.1);
+  --color-field-date: #7e22ce; /* 7.0:1 */
+  --color-field-date-fill: rgb(126 34 206 / 0.08);
+  --color-field-choice: #be185d; /* 6.0:1 */
+  --color-field-choice-fill: rgb(190 24 93 / 0.08);
+  --color-field-box-selected: #a16207;
+  --color-field-box-selected-fill: rgb(161 98 7 / 0.14);
+
+  --font-sans: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans CJK SC', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --line-height-base: 1.5;
+  --line-height-tight: 1.25;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --shadow-panel: 0 1px 2px rgb(15 23 42 / 0.06);
+  --target-size: 44px;
+  --target-size-small: 36px;
+  --focus-ring-width: 3px;
+  --transition-fast: 150ms ease-out;
+  --content-max-width: 1440px;
+}

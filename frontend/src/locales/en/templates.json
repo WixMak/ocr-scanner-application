@@ -1,0 +1,93 @@
+{
+  "list": {
+    "heading": "Templates",
+    "intro": "A template marks where each answer goes on a blank form. Create one per form layout, then use it to extract values from filled copies.",
+    "newTemplate": "New template",
+    "loading": "Loading templates…",
+    "empty": "No templates yet. Scan a blank form to create your first one.",
+    "createFirst": "Create a template",
+    "caption": "Saved templates",
+    "columns": {
+      "name": "Name",
+      "fields": "Fields",
+      "updated": "Last updated",
+      "actions": "Actions"
+    },
+    "edit": "Edit",
+    "editNamed": "Edit {{name}}",
+    "extract": "Extract",
+    "extractNamed": "Extract values with {{name}}",
+    "delete": "Delete",
+    "deleteNamed": "Delete {{name}}",
+    "deleting": "Deleting…",
+    "confirmDelete": "Delete “{{name}}”? This can't be undone.",
+    "confirmDeleteGroup": "Confirm delete"
+  },
+  "new": {
+    "heading": "New template",
+    "uploadHeading": "Scan the blank form",
+    "uploadIntro": "Upload an empty copy of the form. Labels and answer areas are detected automatically, and you can adjust them afterwards.",
+    "fileLabel": "Blank form",
+    "detecting": "Detecting fields… this usually takes a few seconds.",
+    "detectedFields_one": "Detected {{count}} field. Check it below, then name and save the template.",
+    "detectedFields_other": "Detected {{count}} fields. Check them below, then name and save the template."
+  },
+  "edit": {
+    "heading": "Edit template",
+    "loading": "Loading template…"
+  },
+  "editor": {
+    "backToTemplates": "Back to templates",
+    "name": "Template name",
+    "addField": "Add field",
+    "save": "Save template",
+    "saving": "Saving…",
+    "useForExtraction": "Extract with this template",
+    "saved": "Template saved at {{time}}.",
+    "previewHeading": "Form preview",
+    "boxInstructions": "Drag a box to move it, or drag its corner to resize. With a keyboard, focus a box and use the arrow keys to move it, or Shift + arrow keys to resize it.",
+    "imageAlt": "Blank form with the detected field areas outlined",
+    "imageAltPage": "Blank form page {{number}} of {{count}} with the detected field areas outlined",
+    "boxLabel": "Field box: {{name}} ({{key}}), {{type}}",
+    "fieldsHeading_one": "{{count}} field",
+    "fieldsHeading_other": "{{count}} fields",
+    "noFields": "No fields yet. Use “Add field” to mark an answer area.",
+    "optionBoxLabel": "Option box: {{option}} for {{name}} ({{key}})",
+    "typeLegend": "Box colours by field type"
+  },
+  "field": {
+    "key": "JSON key",
+    "keyHint": "Lowercase letters, numbers and underscores, starting with a letter.",
+    "label": "Label",
+    "type": "Type",
+    "position": "Position and size (pixels)",
+    "box": {
+      "x": "Left",
+      "y": "Top",
+      "width": "Width",
+      "height": "Height"
+    },
+    "remove": "Remove {{name}}",
+    "options": "Options",
+    "optionsHint": "The extracted value is the text of the ticked option.",
+    "optionText": "Option text",
+    "optionFallback": "Option {{number}}",
+    "addOption": "Add option",
+    "removeOption": "Remove option {{name}}"
+  },
+  "validation": {
+    "summaryHeading": "Fix these problems before saving",
+    "nameRequired": "Enter a template name.",
+    "key": {
+      "required": "Enter a JSON key.",
+      "invalid": "Use lowercase letters, numbers and underscores, starting with a letter.",
+      "duplicate": "Another field already uses this key."
+    },
+    "summaryKey": {
+      "required": "{{name}}: enter a JSON key.",
+      "invalid": "{{name}}: the JSON key has characters that aren't allowed.",
+      "duplicate": "{{name}}: the JSON key is used by another field."
+    },
+    "unnamedField": "Unnamed field"
+  }
+}

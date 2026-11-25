@@ -1,0 +1,43 @@
+[project]
+name = "ocr-form-scanner-backend"
+version = "0.1.0"
+description = "Form template builder and handwriting field extraction (PaddleOCR + Qwen3-VL via Ollama)"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "fastapi>=0.165",
+    "httpx>=0.28",
+    "numpy>=2.0",
+    "opencv-contrib-python>=4.10",
+    "paddleocr>=3.7",
+    "paddlepaddle>=3.3",
+    "pillow>=11.0",
+    "pydantic>=2.14",
+    "pydantic-settings>=2.16",
+    "pymupdf>=2.1",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.54",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2",
+    "pytest-cov>=7.1",
+    "ruff>=0.14",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: needs the real PaddleOCR models and a running Ollama (run with -m integration)",
+]
+addopts = "-m 'not integration'"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "N", "RUF"]

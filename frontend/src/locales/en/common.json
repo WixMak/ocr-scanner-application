@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "OCR Form Scanner",
+    "skipToContent": "Skip to main content"
+  },
+  "nav": {
+    "label": "Main",
+    "templates": "Templates",
+    "extract": "Extract values"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "zh-CN": "简体中文"
+  },
+  "health": {
+    "ollamaUnreachable": "Ollama can't be reached. You can still build templates, but reading filled forms needs Ollama — start it with “ollama serve”.",
+    "modelMissing": "The model {{model}} isn't installed in Ollama. Install it with “ollama pull {{model}}”."
+  },
+  "upload": {
+    "chooseFile": "Choose a file",
+    "dropHint": "or drag it here",
+    "acceptedTypes": "PNG, JPG, TIFF, WebP or PDF, up to {{maxSize}} MB. For PDFs, only the first page is used.",
+    "selected": "Selected: {{fileName}}",
+    "tooLarge": "This file is larger than {{maxSize}} MB. Choose a smaller file.",
+    "unsupportedType": "This file type isn't supported. Choose a PNG, JPG, TIFF, WebP or PDF file."
+  },
+  "errors": {
+    "network_error": "The server can't be reached. Check that the backend is running and try again.",
+    "invalid_response": "The server sent an unexpected response. Try again, or contact support if it keeps happening.",
+    "unknown_error": "Something went wrong. Try again.",
+    "unsupported_file": "This file couldn't be read as an image or PDF.",
+    "file_too_large": "This file is too large to upload.",
+    "template_not_found": "This template doesn't exist anymore. It may have been deleted.",
+    "draft_not_found": "The scanned blank form has expired. Upload it again.",
+    "field_outside_image": "A field box goes outside the form image. Move or resize it so it fits.",
+    "missing_form_pages_one": "The scan is missing page {{pages}} of the form, which has fields to fill in. Scan every form page and try again. Terms and conditions pages can be left out.",
+    "missing_form_pages_other": "The scan is missing pages {{pages}} of the form, which have fields to fill in. Scan every form page and try again. Terms and conditions pages can be left out.",
+    "ocr_engine_unavailable": "The OCR model isn't available. Check that Ollama is running and the models are installed."
+  },
+  "actions": {
+    "cancel": "Cancel"
+  },
+  "fieldTypes": {
+    "text": "Text",
+    "number": "Number",
+    "date": "Date",
+    "choice": "Choice"
+  },
+  "fieldStatus": {
+    "confirmed": "Confirmed",
+    "review": "Needs review",
+    "empty": "Empty",
+    "edited": "Edited"
+  },
+  "pages": {
+    "switcherLabel": "Form pages",
+    "page": "Page {{number}}"
+  }
+}

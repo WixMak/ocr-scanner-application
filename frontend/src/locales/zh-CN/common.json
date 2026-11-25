@@ -1,0 +1,59 @@
+{
+  "app": {
+    "title": "OCR 表单扫描",
+    "skipToContent": "跳到主要内容"
+  },
+  "nav": {
+    "label": "主导航",
+    "templates": "模板",
+    "extract": "提取数据"
+  },
+  "language": {
+    "label": "语言",
+    "en": "English",
+    "zh-CN": "简体中文"
+  },
+  "health": {
+    "ollamaUnreachable": "无法连接 Ollama。仍可创建模板，但读取已填写的表单需要 Ollama——请运行“ollama serve”启动。",
+    "modelMissing": "Ollama 中未安装模型 {{model}}。请运行“ollama pull {{model}}”安装。"
+  },
+  "upload": {
+    "chooseFile": "选择文件",
+    "dropHint": "或拖放到此处",
+    "acceptedTypes": "支持 PNG、JPG、TIFF、WebP 或 PDF，最大 {{maxSize}} MB。PDF 仅使用第一页。",
+    "selected": "已选择：{{fileName}}",
+    "tooLarge": "文件超过 {{maxSize}} MB，请选择较小的文件。",
+    "unsupportedType": "不支持此文件类型，请选择 PNG、JPG、TIFF、WebP 或 PDF 文件。"
+  },
+  "errors": {
+    "network_error": "无法连接服务器。请确认后端正在运行，然后重试。",
+    "invalid_response": "服务器返回了意外的响应。请重试；如问题持续，请联系技术支持。",
+    "unknown_error": "出现问题，请重试。",
+    "unsupported_file": "无法将此文件读取为图片或 PDF。",
+    "file_too_large": "文件太大，无法上传。",
+    "template_not_found": "此模板已不存在，可能已被删除。",
+    "draft_not_found": "空白表单扫描已过期，请重新上传。",
+    "field_outside_image": "有字段框超出了表单图片范围，请移动或调整大小。",
+    "missing_form_pages_other": "扫描件缺少表单的第 {{pages}} 页，这些页面上有需要填写的字段。请扫描表单的所有填写页后重试。条款及细则页可以不扫描。",
+    "ocr_engine_unavailable": "OCR 模型不可用。请确认 Ollama 正在运行且已安装模型。"
+  },
+  "actions": {
+    "cancel": "取消"
+  },
+  "fieldTypes": {
+    "text": "文本",
+    "number": "数字",
+    "date": "日期",
+    "choice": "选项"
+  },
+  "fieldStatus": {
+    "confirmed": "已确认",
+    "review": "需复核",
+    "empty": "空白",
+    "edited": "已修改"
+  },
+  "pages": {
+    "switcherLabel": "表单页面",
+    "page": "第 {{number}} 页"
+  }
+}

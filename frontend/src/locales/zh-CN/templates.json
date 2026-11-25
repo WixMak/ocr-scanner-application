@@ -1,0 +1,91 @@
+{
+  "list": {
+    "heading": "模板",
+    "intro": "模板标记空白表单上每个答案的位置。每种表单版式创建一个模板，再用它从已填写的表单中提取数据。",
+    "newTemplate": "新建模板",
+    "loading": "正在加载模板…",
+    "empty": "还没有模板。扫描一份空白表单来创建第一个模板。",
+    "createFirst": "创建模板",
+    "caption": "已保存的模板",
+    "columns": {
+      "name": "名称",
+      "fields": "字段数",
+      "updated": "最后更新",
+      "actions": "操作"
+    },
+    "edit": "编辑",
+    "editNamed": "编辑 {{name}}",
+    "extract": "提取",
+    "extractNamed": "使用 {{name}} 提取数据",
+    "delete": "删除",
+    "deleteNamed": "删除 {{name}}",
+    "deleting": "正在删除…",
+    "confirmDelete": "确定删除“{{name}}”？此操作无法撤销。",
+    "confirmDeleteGroup": "确认删除"
+  },
+  "new": {
+    "heading": "新建模板",
+    "uploadHeading": "扫描空白表单",
+    "uploadIntro": "上传一份未填写的表单。系统会自动识别标签和填写区域，之后可以再调整。",
+    "fileLabel": "空白表单",
+    "detecting": "正在识别字段…通常需要几秒钟。",
+    "detectedFields_other": "已识别 {{count}} 个字段。请在下方检查，然后命名并保存模板。"
+  },
+  "edit": {
+    "heading": "编辑模板",
+    "loading": "正在加载模板…"
+  },
+  "editor": {
+    "backToTemplates": "返回模板列表",
+    "name": "模板名称",
+    "addField": "添加字段",
+    "save": "保存模板",
+    "saving": "正在保存…",
+    "useForExtraction": "使用此模板提取",
+    "saved": "模板已于 {{time}} 保存。",
+    "previewHeading": "表单预览",
+    "boxInstructions": "拖动方框可移动位置，拖动右下角可调整大小。使用键盘时，先聚焦方框，再按方向键移动，或按 Shift + 方向键调整大小。",
+    "imageAlt": "已标出识别字段区域的空白表单",
+    "imageAltPage": "已标出识别字段区域的空白表单，第 {{number}} 页，共 {{count}} 页",
+    "boxLabel": "字段框：{{name}}（{{key}}），{{type}}",
+    "fieldsHeading_other": "{{count}} 个字段",
+    "noFields": "还没有字段。请点击“添加字段”标记填写区域。",
+    "optionBoxLabel": "选项框：{{option}}，属于 {{name}}（{{key}}）",
+    "typeLegend": "按字段类型区分的框颜色"
+  },
+  "field": {
+    "key": "JSON 键名",
+    "keyHint": "只能使用小写字母、数字和下划线，并以字母开头。",
+    "label": "标签",
+    "type": "类型",
+    "position": "位置和大小（像素）",
+    "box": {
+      "x": "左",
+      "y": "上",
+      "width": "宽",
+      "height": "高"
+    },
+    "remove": "移除 {{name}}",
+    "options": "选项",
+    "optionsHint": "提取结果为已勾选选项的文字。",
+    "optionText": "选项文字",
+    "optionFallback": "选项 {{number}}",
+    "addOption": "添加选项",
+    "removeOption": "移除选项 {{name}}"
+  },
+  "validation": {
+    "summaryHeading": "保存前请修正以下问题",
+    "nameRequired": "请输入模板名称。",
+    "key": {
+      "required": "请输入 JSON 键名。",
+      "invalid": "只能使用小写字母、数字和下划线，并以字母开头。",
+      "duplicate": "其他字段已使用此键名。"
+    },
+    "summaryKey": {
+      "required": "{{name}}：请输入 JSON 键名。",
+      "invalid": "{{name}}：JSON 键名包含不允许的字符。",
+      "duplicate": "{{name}}：JSON 键名与其他字段重复。"
+    },
+    "unnamedField": "未命名字段"
+  }
+}

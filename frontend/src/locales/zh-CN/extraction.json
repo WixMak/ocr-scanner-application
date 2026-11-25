@@ -1,0 +1,41 @@
+{
+  "page": {
+    "heading": "提取数据",
+    "intro": "选择与表单匹配的模板，上传已填写的表单，并在使用 JSON 前核对数据。",
+    "templateLabel": "模板",
+    "templatePlaceholder": "选择模板",
+    "noTemplates": "还没有模板。",
+    "createTemplate": "用空白表单创建一个。",
+    "fileLabel": "已填写的表单",
+    "extract": "提取数据",
+    "extracting": "正在提取…",
+    "extractingHint": "正在识别手写内容…较长的表单可能需要一分钟。"
+  },
+  "result": {
+    "summary": "共读取 {{total}} 个字段：{{confirmed}} 个已确认，{{review}} 个需复核，{{empty}} 个空白。",
+    "notAligned": "扫描件无法与模板对齐，部分数据可能取自错误区域。请仔细检查预览，或将表单放平并在光线充足处重新扫描。",
+    "notAlignedPages_other": "扫描件的第 {{pages}} 页无法与模板对齐，这些页面上的部分数据可能取自错误区域。请在预览中仔细检查这些页面，或将其放平并在光线充足处重新扫描。",
+    "previewHeading": "扫描预览",
+    "imageAlt": "已与模板对齐的已填写表单，各字段上显示了提取的数据",
+    "imageAltPage": "已与模板对齐的已填写表单第 {{number}} 页，各字段上显示了提取的数据",
+    "fieldsHeading": "提取的数据",
+    "boxLabel": "{{label}}：{{value}}，{{status}}。跳到此数据。",
+    "noValue": "（空白）",
+    "notApplicable": "—",
+    "confidence": "置信度 {{confidence}}",
+    "readingsSummary_other": "{{count}} 个引擎的识别结果",
+    "readingsColumns": {
+      "engine": "引擎",
+      "text": "识别文字",
+      "confidence": "置信度"
+    }
+  },
+  "json": {
+    "heading": "JSON 输出",
+    "copy": "复制 JSON",
+    "download": "下载 JSON",
+    "copied": "已复制 JSON 到剪贴板。",
+    "copyFailed": "无法自动复制。请选中下方的 JSON 手动复制。",
+    "codeLabel": "以 JSON 格式表示的提取数据"
+  }
+}
